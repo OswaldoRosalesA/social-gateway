@@ -1,0 +1,10 @@
+zuul:
+  routes:
+    gamification-admin:
+      path: /gamification/admin/**
+      serviceId: social-gamification-client
+      strip-prefix: false
+    multiplication-admin:
+      path: /multiplication/admin/**
+      serviceId: social-multiplication-client
+      strip-prefix: false

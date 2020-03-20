@@ -17,8 +17,20 @@ zuul:
       path: /results/**
       serviceId: social-multiplication-client
       strip-prefix: false
+    users:
+      path: /users/**
+      serviceId: social-multiplication-client
+      strip-prefix: false
     leaders:
       path: /leaders/**
+      serviceId: social-gamification-client
+      strip-prefix: false
+    stats:
+      path: /stats/**
+      serviceId: social-gamification-client
+      strip-prefix: false
+    scores:
+      path: /scores/**
       serviceId: social-gamification-client
       strip-prefix: false
 
